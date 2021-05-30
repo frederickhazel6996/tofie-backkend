@@ -1,0 +1,756 @@
+2021-04-06 10:07:38,349 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-04-06 10:07:38,358 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2218 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 10:07:38,359 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 10:07:38,423 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 10:07:38,423 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 10:07:39,390 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 10:07:39,456 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 61 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 10:07:40,210 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 10:07:40,222 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:07:40,223 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 10:07:40,223 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 10:07:40,289 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 10:07:40,289 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1865 ms
+2021-04-06 10:07:40,474 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 10:07:40,570 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c32ec8d44f63554bd4e89', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2021-04-06 10:07:40,570 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c32ec8d44f63554bd4e89', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2021-04-06 10:07:40,570 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c32ec8d44f63554bd4e89', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=32567166}
+2021-04-06 10:07:40,662 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 10:07:40,856 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController': Unsatisfied dependency expressed through field 'authenticationManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-04-06 10:07:40,861 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-04-06 10:07:40,873 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-06 10:07:40,894 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.hazex.tofiebackend.controllers.AuthController required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2021-04-06 10:08:21,150 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-04-06 10:08:21,156 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2254 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 10:08:21,157 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 10:08:21,192 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 10:08:21,192 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 10:08:21,973 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 10:08:22,034 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 57 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 10:08:22,724 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 10:08:22,735 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:08:22,736 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 10:08:22,737 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 10:08:22,797 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 10:08:22,797 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1604 ms
+2021-04-06 10:08:22,925 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 10:08:22,980 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c3316dd102c28593f5d58', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:3}] to localhost:27017
+2021-04-06 10:08:22,980 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3316dd102c28593f5d58', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:4}] to localhost:27017
+2021-04-06 10:08:22,981 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3316dd102c28593f5d58', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=16582962}
+2021-04-06 10:08:23,082 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 10:08:23,258 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController': Unsatisfied dependency expressed through field 'authenticationManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-04-06 10:08:23,263 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-04-06 10:08:23,272 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-06 10:08:23,291 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.hazex.tofiebackend.controllers.AuthController required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2021-04-06 10:09:52,665 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2288 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 10:09:52,665 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-04-06 10:09:52,669 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 10:09:52,713 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 10:09:52,713 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 10:09:53,515 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 10:09:53,565 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 47 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 10:09:54,155 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 10:09:54,166 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:09:54,167 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 10:09:54,167 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 10:09:54,222 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 10:09:54,222 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1509 ms
+2021-04-06 10:09:54,373 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 10:09:54,436 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3372171db073e0c7cdc4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:5}] to localhost:27017
+2021-04-06 10:09:54,436 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c3372171db073e0c7cdc4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:6}] to localhost:27017
+2021-04-06 10:09:54,436 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3372171db073e0c7cdc4', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18853223}
+2021-04-06 10:09:54,531 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 10:09:54,691 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController': Unsatisfied dependency expressed through field 'authenticationManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-04-06 10:09:54,695 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-04-06 10:09:54,704 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-06 10:09:54,724 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.hazex.tofiebackend.controllers.AuthController required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2021-04-06 10:11:03,480 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-04-06 10:11:03,485 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2308 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 10:11:03,485 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 10:11:03,519 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 10:11:03,520 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 10:11:04,195 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 10:11:04,255 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 54 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 10:11:04,868 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 10:11:04,877 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:11:04,878 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 10:11:04,878 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 10:11:04,932 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 10:11:04,932 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1412 ms
+2021-04-06 10:11:05,083 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 10:11:05,150 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c33b98cb8013897408a79', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:8}] to localhost:27017
+2021-04-06 10:11:05,150 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c33b98cb8013897408a79', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:7}] to localhost:27017
+2021-04-06 10:11:05,151 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c33b98cb8013897408a79', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22137445}
+2021-04-06 10:11:05,269 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 10:11:05,457 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController': Unsatisfied dependency expressed through field 'authenticationManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-04-06 10:11:05,461 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-04-06 10:11:05,470 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-06 10:11:05,486 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.hazex.tofiebackend.controllers.AuthController required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2021-04-06 10:11:37,005 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-04-06 10:11:37,010 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2323 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 10:11:37,011 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 10:11:37,049 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 10:11:37,050 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 10:11:37,832 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 10:11:37,892 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 55 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 10:11:38,513 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 10:11:38,522 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:11:38,522 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 10:11:38,522 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 10:11:38,575 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 10:11:38,575 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1525 ms
+2021-04-06 10:11:38,697 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 10:11:38,749 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c33da6ce90b41d8a3e508', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:10}] to localhost:27017
+2021-04-06 10:11:38,749 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c33da6ce90b41d8a3e508', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:9}] to localhost:27017
+2021-04-06 10:11:38,750 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c33da6ce90b41d8a3e508', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=17171047}
+2021-04-06 10:11:38,880 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 10:11:39,039 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController': Unsatisfied dependency expressed through field 'authenticationManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-04-06 10:11:39,043 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-04-06 10:11:39,052 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-06 10:11:39,068 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.hazex.tofiebackend.controllers.AuthController required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2021-04-06 10:13:43,659 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-04-06 10:13:43,666 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2363 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 10:13:43,666 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 10:13:43,708 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 10:13:43,709 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 10:13:44,508 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 10:13:44,568 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 55 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 10:13:44,857 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6bbafc5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 10:13:44,863 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 10:13:45,247 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 10:13:45,258 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:13:45,259 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 10:13:45,259 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 10:13:45,314 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 10:13:45,314 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1605 ms
+2021-04-06 10:13:45,553 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 10:13:45,614 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3459644cb13d16ee7806', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:12}] to localhost:27017
+2021-04-06 10:13:45,614 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c3459644cb13d16ee7806', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:11}] to localhost:27017
+2021-04-06 10:13:45,615 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3459644cb13d16ee7806', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20697329}
+2021-04-06 10:13:45,720 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 10:13:46,593 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ff92766, org.springframework.security.web.context.SecurityContextPersistenceFilter@f1fdb26, org.springframework.security.web.header.HeaderWriterFilter@6d6b6573, org.springframework.security.web.csrf.CsrfFilter@75d029a7, org.springframework.security.web.authentication.logout.LogoutFilter@4d097ff3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@325a2915, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@24365866, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5af536cb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@48444ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71754ea0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37a99f45, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fa5dcda, org.springframework.security.web.session.SessionManagementFilter@783f5d87, org.springframework.security.web.access.ExceptionTranslationFilter@55450307, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28930ed0]
+2021-04-06 10:13:46,710 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 10:13:46,910 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:13:46,945 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 10:13:47,260 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 3.938 seconds (JVM running for 4.351)
+2021-04-06 10:14:03,395 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 10:14:03,396 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-04-06 10:14:03,397 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-04-06 10:14:32,633 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 10:14:32,777 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2363 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 10:14:32,777 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 10:14:33,103 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 10:14:33,122 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 18 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 10:14:33,174 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@336eb9a4' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 10:14:33,176 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 10:14:33,219 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 10:14:33,220 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:14:33,221 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 10:14:33,221 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 10:14:33,230 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 10:14:33,230 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 450 ms
+2021-04-06 10:14:33,309 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 10:14:33,313 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3489644cb13d16ee7807', description='null'}-localhost:27017] Opened connection [connectionId{localValue:3, serverValue:13}] to localhost:27017
+2021-04-06 10:14:33,313 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c3489644cb13d16ee7807', description='null'}-localhost:27017] Opened connection [connectionId{localValue:4, serverValue:14}] to localhost:27017
+2021-04-06 10:14:33,315 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3489644cb13d16ee7807', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1054058}
+2021-04-06 10:14:33,337 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 10:14:33,616 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27ac6375, org.springframework.security.web.context.SecurityContextPersistenceFilter@38c7f8b7, org.springframework.security.web.header.HeaderWriterFilter@446bdcf0, org.springframework.security.web.csrf.CsrfFilter@7310c8b8, org.springframework.security.web.authentication.logout.LogoutFilter@592a9a21, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@462509bc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2e222243, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5c883406, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@62a593a1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44c68772, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ed05f46, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@320eaec2, org.springframework.security.web.session.SessionManagementFilter@4de7bcbb, org.springframework.security.web.access.ExceptionTranslationFilter@4257d548, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@253bcc9a]
+2021-04-06 10:14:33,653 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 10:14:33,727 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:14:33,735 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 10:14:34,099 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 1.349 seconds (JVM running for 51.189)
+2021-04-06 10:14:34,101 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-06 10:15:00,328 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-9] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 10:15:00,462 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2363 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 10:15:00,462 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 10:15:00,749 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 10:15:00,761 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 10:15:00,824 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 10:15:00,825 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:15:00,825 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 10:15:00,826 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 10:15:00,833 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 10:15:00,833 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 368 ms
+2021-04-06 10:15:00,852 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 10:15:00,868 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c34a4644cb13d16ee7808', description='null'}-localhost:27017] Opened connection [connectionId{localValue:5, serverValue:15}] to localhost:27017
+2021-04-06 10:15:00,868 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c34a4644cb13d16ee7808', description='null'}-localhost:27017] Opened connection [connectionId{localValue:6, serverValue:16}] to localhost:27017
+2021-04-06 10:15:00,870 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c34a4644cb13d16ee7808', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=969119}
+2021-04-06 10:15:00,881 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 10:15:00,912 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController': Unsatisfied dependency expressed through field 'authenticationManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-04-06 10:15:00,913 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-04-06 10:15:00,920 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-06 10:15:00,938 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.hazex.tofiebackend.controllers.AuthController required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2021-04-06 10:17:27,494 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2363 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 10:17:27,495 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 10:17:27,753 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 10:17:27,778 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 24 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 10:17:27,858 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2a185c50' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 10:17:27,860 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 10:17:27,903 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 10:17:27,903 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:17:27,904 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 10:17:27,904 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 10:17:27,912 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 10:17:27,913 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 416 ms
+2021-04-06 10:17:27,992 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 10:17:27,997 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3537644cb13d16ee7809', description='null'}-localhost:27017] Opened connection [connectionId{localValue:7, serverValue:18}] to localhost:27017
+2021-04-06 10:17:27,999 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c3537644cb13d16ee7809', description='null'}-localhost:27017] Opened connection [connectionId{localValue:8, serverValue:17}] to localhost:27017
+2021-04-06 10:17:28,000 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3537644cb13d16ee7809', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1935332}
+2021-04-06 10:17:28,016 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 10:17:28,231 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d7d0940, org.springframework.security.web.context.SecurityContextPersistenceFilter@4eea1b87, org.springframework.security.web.header.HeaderWriterFilter@79c9d99e, org.springframework.security.web.authentication.logout.LogoutFilter@1f7e4f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71caa0ca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46788244, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@118af585, org.springframework.security.web.session.SessionManagementFilter@24cfb636, org.springframework.security.web.access.ExceptionTranslationFilter@2d3255ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2230630f]
+2021-04-06 10:17:28,268 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 10:17:28,314 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:17:28,316 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 10:17:28,400 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.931 seconds (JVM running for 225.49)
+2021-04-06 10:17:28,401 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-06 10:18:08,061 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-14] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 10:18:08,222 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2363 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 10:18:08,223 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 10:18:08,515 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 10:18:08,536 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 20 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 10:18:08,576 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5ee97ede' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 10:18:08,577 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 10:18:08,604 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 10:18:08,605 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:18:08,606 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 10:18:08,606 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 10:18:08,614 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 10:18:08,614 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 389 ms
+2021-04-06 10:18:08,669 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 10:18:08,674 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c3560644cb13d16ee780a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:10, serverValue:20}] to localhost:27017
+2021-04-06 10:18:08,674 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3560644cb13d16ee780a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:9, serverValue:19}] to localhost:27017
+2021-04-06 10:18:08,678 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3560644cb13d16ee780a', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1328333}
+2021-04-06 10:18:08,707 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 10:18:08,950 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55551d0e, org.springframework.security.web.context.SecurityContextPersistenceFilter@46e7a136, org.springframework.security.web.header.HeaderWriterFilter@5533288d, org.springframework.security.web.authentication.logout.LogoutFilter@77b71e52, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@736f8732, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fd4ae92, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61ad1e63, org.springframework.security.web.session.SessionManagementFilter@3a612485, org.springframework.security.web.access.ExceptionTranslationFilter@f675b5b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@78197af7]
+2021-04-06 10:18:08,983 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 10:18:09,022 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:18:09,025 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 10:18:09,153 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.962 seconds (JVM running for 266.243)
+2021-04-06 10:18:09,154 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-06 10:18:15,471 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-22] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 10:18:15,585 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2363 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 10:18:15,585 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 10:18:15,856 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 10:18:15,872 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 10:18:15,912 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@54a6a10c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 10:18:15,913 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 10:18:15,943 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 10:18:15,944 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:18:15,944 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 10:18:15,945 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 10:18:15,952 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 10:18:15,953 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 365 ms
+2021-04-06 10:18:15,987 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 10:18:15,990 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3567644cb13d16ee780b', description='null'}-localhost:27017] Opened connection [connectionId{localValue:11, serverValue:21}] to localhost:27017
+2021-04-06 10:18:15,990 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c3567644cb13d16ee780b', description='null'}-localhost:27017] Opened connection [connectionId{localValue:12, serverValue:22}] to localhost:27017
+2021-04-06 10:18:15,991 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c3567644cb13d16ee780b', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=874481}
+2021-04-06 10:18:16,001 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 10:18:16,186 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@389639d, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a4e829b, org.springframework.security.web.header.HeaderWriterFilter@73300f43, org.springframework.security.web.authentication.logout.LogoutFilter@63148543, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4cd15fe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77f45833, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c2757ee, org.springframework.security.web.session.SessionManagementFilter@2c8ac497, org.springframework.security.web.access.ExceptionTranslationFilter@1b10a1a5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46195245]
+2021-04-06 10:18:16,226 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 10:18:16,265 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 10:18:16,267 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 10:18:16,334 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.768 seconds (JVM running for 273.425)
+2021-04-06 10:18:16,335 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-06 10:18:22,760 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 10:18:22,761 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-04-06 10:18:22,762 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-04-06 10:18:57,859 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.hazex.tofiebackend.controllers.AdminController.addAdmin(com.hazex.tofiebackend.entities.Admin): [Field error in object 'admin' on field 'email': rejected value [null]; codes [NotBlank.admin.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [admin.email,email]; arguments []; default message [email]]; default message [must not be blank]] ]
+2021-04-06 10:21:53,645 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-10] Opened connection [connectionId{localValue:13, serverValue:23}] to localhost:27017
+2021-04-06 10:23:33,651 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 10:23:33,655 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:13, serverValue:23}] to localhost:27017 because the pool has been closed.
+2021-04-06 12:40:53,731 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-04-06 12:40:53,738 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2957 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 12:40:53,739 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 12:40:53,809 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 12:40:53,811 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 12:40:54,720 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 12:40:54,769 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 45 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 12:40:55,104 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@381bbd07' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:40:55,107 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:40:55,435 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 12:40:55,444 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:40:55,445 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 12:40:55,445 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 12:40:55,497 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 12:40:55,498 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1686 ms
+2021-04-06 12:40:55,621 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 12:40:55,710 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c56d7cb328d1cd98936cb', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:25}] to localhost:27017
+2021-04-06 12:40:55,710 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c56d7cb328d1cd98936cb', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:24}] to localhost:27017
+2021-04-06 12:40:55,712 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c56d7cb328d1cd98936cb', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=27491055}
+2021-04-06 12:40:56,143 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 12:40:56,749 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76ca7504, org.springframework.security.web.context.SecurityContextPersistenceFilter@c4199a5, org.springframework.security.web.header.HeaderWriterFilter@77cb3905, org.springframework.security.web.authentication.logout.LogoutFilter@4cc4d854, com.hazex.tofiebackend.config.JWT.JWTRequestFilter@1d34be08, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57df8e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ef0d7cd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@685c3110, org.springframework.security.web.session.SessionManagementFilter@51ae0a04, org.springframework.security.web.access.ExceptionTranslationFilter@1a23d235, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46ae4883]
+2021-04-06 12:40:56,879 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:40:57,032 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:40:57,056 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 12:40:57,332 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 4.061 seconds (JVM running for 4.533)
+2021-04-06 12:41:08,835 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 12:41:08,835 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-06 12:41:08,837 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-04-06 12:41:08,857 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-04-06 12:41:33,374 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-3] Opened connection [connectionId{localValue:3, serverValue:26}] to localhost:27017
+2021-04-06 12:44:40,007 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:44:40,015 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-5] Closed connection [connectionId{localValue:3, serverValue:26}] to localhost:27017 because the pool has been closed.
+2021-04-06 12:44:40,156 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 2957 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 12:44:40,157 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 12:44:40,605 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 12:44:40,638 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 32 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 12:44:40,812 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@65904eb4' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:44:40,814 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:44:40,934 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 12:44:40,938 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:44:40,939 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 12:44:40,939 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 12:44:40,959 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 12:44:40,959 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 798 ms
+2021-04-06 12:44:40,995 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 12:44:41,005 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c57b8cb328d1cd98936cc', description='null'}-localhost:27017] Opened connection [connectionId{localValue:4, serverValue:27}] to localhost:27017
+2021-04-06 12:44:41,005 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c57b8cb328d1cd98936cc', description='null'}-localhost:27017] Opened connection [connectionId{localValue:5, serverValue:28}] to localhost:27017
+2021-04-06 12:44:41,010 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c57b8cb328d1cd98936cc', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2538845}
+2021-04-06 12:44:41,197 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 12:44:41,456 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4343afee, org.springframework.security.web.context.SecurityContextPersistenceFilter@4059fe5c, org.springframework.security.web.header.HeaderWriterFilter@7f8e4598, org.springframework.security.web.authentication.logout.LogoutFilter@17b17bb2, com.hazex.tofiebackend.config.JWT.JWTRequestFilter@6dcf1565, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c6451ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51cb6d3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b428301, org.springframework.security.web.session.SessionManagementFilter@237d4d5c, org.springframework.security.web.access.ExceptionTranslationFilter@a12c66a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34591e5]
+2021-04-06 12:44:41,489 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:44:41,550 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:44:41,553 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 12:44:41,659 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 1.541 seconds (JVM running for 228.858)
+2021-04-06 12:44:41,661 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-06 12:45:09,186 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:46:19,570 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-04-06 12:46:19,598 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3043 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 12:46:19,600 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 12:46:19,710 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 12:46:19,712 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 12:46:20,979 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 12:46:21,047 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 62 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 12:46:21,328 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@259e607d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:46:21,331 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:46:21,633 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 12:46:21,642 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:46:21,643 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 12:46:21,643 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 12:46:21,704 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 12:46:21,704 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1990 ms
+2021-04-06 12:46:21,833 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 12:46:21,900 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c581da9b66d2201e663de', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:30}] to localhost:27017
+2021-04-06 12:46:21,900 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c581da9b66d2201e663de', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:29}] to localhost:27017
+2021-04-06 12:46:21,901 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c581da9b66d2201e663de', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=21423614}
+2021-04-06 12:46:22,397 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 12:46:23,211 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ec4bb35, org.springframework.security.web.context.SecurityContextPersistenceFilter@c44b712, org.springframework.security.web.header.HeaderWriterFilter@5e044cd, org.springframework.security.web.authentication.logout.LogoutFilter@3c575a31, com.hazex.tofiebackend.config.JWT.JWTRequestFilter@4bd340d9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b551302, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b41b9c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1cc82c63, org.springframework.security.web.session.SessionManagementFilter@77da9002, org.springframework.security.web.access.ExceptionTranslationFilter@52c3d8f1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21b3cfd8]
+2021-04-06 12:46:23,415 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:46:23,618 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:46:23,659 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 12:46:24,078 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 4.965 seconds (JVM running for 5.449)
+2021-04-06 12:47:00,326 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 12:47:00,327 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-04-06 12:47:00,329 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-04-06 12:47:00,348 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-04-06 12:47:00,607 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:3, serverValue:31}] to localhost:27017
+2021-04-06 12:47:54,053 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:47:54,061 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-5] Closed connection [connectionId{localValue:3, serverValue:31}] to localhost:27017 because the pool has been closed.
+2021-04-06 12:47:54,185 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3043 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 12:47:54,186 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 12:47:54,435 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 12:47:54,449 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 12:47:54,487 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3d91d0df' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:47:54,488 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:47:54,515 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 12:47:54,516 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:47:54,516 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 12:47:54,516 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 12:47:54,523 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 12:47:54,523 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 336 ms
+2021-04-06 12:47:54,536 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 12:47:54,538 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c587aa9b66d2201e663df', description='null'}-localhost:27017] Opened connection [connectionId{localValue:4, serverValue:32}] to localhost:27017
+2021-04-06 12:47:54,538 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c587aa9b66d2201e663df', description='null'}-localhost:27017] Opened connection [connectionId{localValue:5, serverValue:33}] to localhost:27017
+2021-04-06 12:47:54,539 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c587aa9b66d2201e663df', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=672250}
+2021-04-06 12:47:54,593 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 12:47:54,794 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b8ebf31, org.springframework.security.web.context.SecurityContextPersistenceFilter@393fd361, org.springframework.security.web.header.HeaderWriterFilter@6f4a477d, org.springframework.security.web.authentication.logout.LogoutFilter@622049ec, com.hazex.tofiebackend.config.JWT.JWTRequestFilter@2b207e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@507ac3c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d36171a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@386ef185, org.springframework.security.web.session.SessionManagementFilter@7557ad57, org.springframework.security.web.access.ExceptionTranslationFilter@6671ebba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22c8c2c1]
+2021-04-06 12:47:54,824 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:47:54,863 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:47:54,865 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 12:47:54,954 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.79 seconds (JVM running for 96.324)
+2021-04-06 12:47:54,956 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-06 12:47:57,595 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 12:47:57,595 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-04-06 12:47:57,596 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-04-06 12:47:57,597 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-04-06 12:47:57,681 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:6, serverValue:34}] to localhost:27017
+2021-04-06 12:48:44,546 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-04-06 12:49:02,375 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-4] JWT Token does not begin with Bearer String
+2021-04-06 12:49:09,834 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-5] JWT Token does not begin with Bearer String
+2021-04-06 12:50:12,277 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:50:12,281 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:6, serverValue:34}] to localhost:27017 because the pool has been closed.
+2021-04-06 12:50:13,819 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-04-06 12:50:13,826 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3440 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 12:50:13,827 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 12:50:13,943 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 12:50:13,945 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 12:50:14,736 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 12:50:14,805 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 65 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 12:50:15,137 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1f98437c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:50:15,142 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:50:15,530 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 12:50:15,542 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:50:15,543 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 12:50:15,543 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 12:50:15,608 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 12:50:15,608 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1662 ms
+2021-04-06 12:50:15,728 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 12:50:15,827 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c5907888bfd2c660d7d67', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:47}] to localhost:27017
+2021-04-06 12:50:15,828 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c5907888bfd2c660d7d67', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:48}] to localhost:27017
+2021-04-06 12:50:15,828 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c5907888bfd2c660d7d67', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=35215375}
+2021-04-06 12:50:16,259 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 12:50:17,476 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ec4bb35, org.springframework.security.web.context.SecurityContextPersistenceFilter@c44b712, org.springframework.security.web.header.HeaderWriterFilter@5e044cd, org.springframework.security.web.authentication.logout.LogoutFilter@3c575a31, com.hazex.tofiebackend.config.JWT.JWTRequestFilter@4bd340d9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b551302, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b41b9c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1cc82c63, org.springframework.security.web.session.SessionManagementFilter@77da9002, org.springframework.security.web.access.ExceptionTranslationFilter@52c3d8f1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21b3cfd8]
+2021-04-06 12:50:17,618 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:50:17,956 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:50:17,984 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 12:50:18,323 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 4.842 seconds (JVM running for 5.462)
+2021-04-06 12:50:36,899 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:50:37,019 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3440 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 12:50:37,020 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 12:50:37,303 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 12:50:37,317 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 12:50:37,358 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@15dda174' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:50:37,359 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:50:37,384 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 12:50:37,385 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:50:37,385 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 12:50:37,386 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 12:50:37,392 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 12:50:37,392 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 370 ms
+2021-04-06 12:50:37,408 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 12:50:37,411 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c591d888bfd2c660d7d68', description='null'}-localhost:27017] Opened connection [connectionId{localValue:4, serverValue:49}] to localhost:27017
+2021-04-06 12:50:37,410 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c591d888bfd2c660d7d68', description='null'}-localhost:27017] Opened connection [connectionId{localValue:3, serverValue:50}] to localhost:27017
+2021-04-06 12:50:37,412 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c591d888bfd2c660d7d68', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=905118}
+2021-04-06 12:50:37,471 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 12:50:37,698 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d2ddfda, org.springframework.security.web.context.SecurityContextPersistenceFilter@11da9c07, org.springframework.security.web.header.HeaderWriterFilter@15e35931, org.springframework.security.web.authentication.logout.LogoutFilter@5bdf98f4, com.hazex.tofiebackend.config.JWT.JWTRequestFilter@6c1cb44, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e545ab3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71f1be99, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b828407, org.springframework.security.web.session.SessionManagementFilter@7023e3af, org.springframework.security.web.access.ExceptionTranslationFilter@28c8f52a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7500f9d7]
+2021-04-06 12:50:37,737 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:50:37,805 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:50:37,807 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 12:50:37,936 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.94 seconds (JVM running for 25.075)
+2021-04-06 12:50:37,939 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-06 12:50:38,773 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 12:50:38,773 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-06 12:50:38,776 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2021-04-06 12:50:38,799 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-04-06 12:50:38,930 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-04-06 12:50:51,041 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-04-06 12:50:51,090 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-4] JWT Token does not begin with Bearer String
+2021-04-06 12:50:53,311 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-5] JWT Token does not begin with Bearer String
+2021-04-06 12:50:53,352 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-6] JWT Token does not begin with Bearer String
+2021-04-06 12:51:07,013 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:51:08,558 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-04-06 12:51:08,565 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3471 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 12:51:08,565 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 12:51:08,612 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 12:51:08,612 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 12:51:09,425 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 12:51:09,485 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 55 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 12:51:09,847 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@42dc33ef' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:51:09,857 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:51:10,284 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 12:51:10,294 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:51:10,295 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 12:51:10,295 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 12:51:10,360 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 12:51:10,360 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1747 ms
+2021-04-06 12:51:10,478 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 12:51:10,565 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c593eb33932037d8c2ac3', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:51}] to localhost:27017
+2021-04-06 12:51:10,565 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c593eb33932037d8c2ac3', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:52}] to localhost:27017
+2021-04-06 12:51:10,566 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c593eb33932037d8c2ac3', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=33778454}
+2021-04-06 12:51:10,930 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 12:51:11,555 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61cbbecd, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bf5cf23, org.springframework.security.web.header.HeaderWriterFilter@48f10213, org.springframework.security.web.authentication.logout.LogoutFilter@5fa0de16, com.hazex.tofiebackend.config.JWT.JWTRequestFilter@19a31776, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d7be99b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f2625f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c721da4, org.springframework.security.web.session.SessionManagementFilter@760d96ee, org.springframework.security.web.access.ExceptionTranslationFilter@30833afa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@168b69ae]
+2021-04-06 12:51:11,692 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:51:11,852 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:51:11,877 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 12:51:12,234 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 4.108 seconds (JVM running for 4.652)
+2021-04-06 12:51:30,365 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:51:30,482 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3471 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 12:51:30,482 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 12:51:30,773 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 12:51:30,787 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 12:51:30,829 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3eb47549' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:51:30,830 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:51:30,858 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 12:51:30,859 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:51:30,859 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 12:51:30,859 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 12:51:30,866 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 12:51:30,866 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 381 ms
+2021-04-06 12:51:30,879 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 12:51:30,882 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c5952b33932037d8c2ac4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:4, serverValue:54}] to localhost:27017
+2021-04-06 12:51:30,882 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c5952b33932037d8c2ac4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:3, serverValue:53}] to localhost:27017
+2021-04-06 12:51:30,883 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c5952b33932037d8c2ac4', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1183355}
+2021-04-06 12:51:30,940 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 12:51:31,139 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2505d97e, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d1bd39e, org.springframework.security.web.header.HeaderWriterFilter@4ee1468e, org.springframework.security.web.authentication.logout.LogoutFilter@3b801ac8, com.hazex.tofiebackend.config.JWT.JWTRequestFilter@155ce059, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ab6e8dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ea71a33, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7791f9f6, org.springframework.security.web.session.SessionManagementFilter@769e197d, org.springframework.security.web.access.ExceptionTranslationFilter@43ac94d4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4175d84]
+2021-04-06 12:51:31,170 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:51:31,226 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:51:31,231 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 12:51:31,324 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.864 seconds (JVM running for 23.742)
+2021-04-06 12:51:31,326 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-06 12:51:36,019 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 12:51:36,020 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-06 12:51:36,021 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-06 12:51:36,037 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-04-06 12:51:36,121 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-04-06 12:52:00,825 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-9] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:52:00,963 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3471 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 12:52:00,963 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 12:52:01,399 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 12:52:01,417 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 12:52:01,463 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@bc4d2e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:52:01,464 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:52:01,496 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 12:52:01,496 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:52:01,497 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 12:52:01,497 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 12:52:01,505 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 12:52:01,505 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 540 ms
+2021-04-06 12:52:01,520 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 12:52:01,526 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c5971b33932037d8c2ac5', description='null'}-localhost:27017] Opened connection [connectionId{localValue:5, serverValue:56}] to localhost:27017
+2021-04-06 12:52:01,526 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c5971b33932037d8c2ac5', description='null'}-localhost:27017] Opened connection [connectionId{localValue:6, serverValue:55}] to localhost:27017
+2021-04-06 12:52:01,530 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c5971b33932037d8c2ac5', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4073331}
+2021-04-06 12:52:01,592 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 12:52:01,807 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f5672d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c05653, org.springframework.security.web.header.HeaderWriterFilter@68d23981, org.springframework.security.web.authentication.logout.LogoutFilter@9a4b3c7, com.hazex.tofiebackend.config.JWT.JWTRequestFilter@49cd16e6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d46a371, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74a19d69, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37d65199, org.springframework.security.web.session.SessionManagementFilter@4b36d79a, org.springframework.security.web.access.ExceptionTranslationFilter@616dcc86, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@299edaff]
+2021-04-06 12:52:01,838 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:52:01,887 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:52:01,890 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 12:52:01,987 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 1.048 seconds (JVM running for 54.404)
+2021-04-06 12:52:01,988 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-06 12:52:06,678 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 12:52:06,679 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-06 12:52:06,680 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-06 12:52:06,680 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-04-06 12:52:06,726 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-04-06 12:53:22,250 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-14] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:53:22,392 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3471 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 12:53:22,392 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 12:53:22,624 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 12:53:22,638 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 12:53:22,672 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4ffb41e5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:53:22,673 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:53:22,696 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 12:53:22,697 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:53:22,697 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 12:53:22,697 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 12:53:22,703 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 12:53:22,704 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 310 ms
+2021-04-06 12:53:22,713 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 12:53:22,715 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c59c2b33932037d8c2ac6', description='null'}-localhost:27017] Opened connection [connectionId{localValue:7, serverValue:58}] to localhost:27017
+2021-04-06 12:53:22,715 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c59c2b33932037d8c2ac6', description='null'}-localhost:27017] Opened connection [connectionId{localValue:8, serverValue:57}] to localhost:27017
+2021-04-06 12:53:22,717 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c59c2b33932037d8c2ac6', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=841988}
+2021-04-06 12:53:22,761 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 12:53:22,899 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f25e4ee, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bf2cc26, org.springframework.security.web.header.HeaderWriterFilter@1d2bbc8e, org.springframework.security.web.authentication.logout.LogoutFilter@50693462, com.hazex.tofiebackend.config.JWT.JWTRequestFilter@5f5b0cb5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@544a048f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14451d44, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@267ee533, org.springframework.security.web.session.SessionManagementFilter@2bdc54ee, org.springframework.security.web.access.ExceptionTranslationFilter@4850f4fb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@d2abc55]
+2021-04-06 12:53:22,937 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:53:22,983 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:53:22,985 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 12:53:23,068 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.696 seconds (JVM running for 135.485)
+2021-04-06 12:53:23,070 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-06 12:53:25,675 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 12:53:25,675 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-06 12:53:25,676 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-06 12:53:25,677 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-04-06 12:53:25,724 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-04-06 12:53:27,565 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-04-06 12:53:27,605 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-4] JWT Token does not begin with Bearer String
+2021-04-06 12:54:36,704 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:54:39,365 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-04-06 12:54:39,371 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3547 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 12:54:39,372 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 12:54:39,405 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 12:54:39,406 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 12:54:40,100 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 12:54:40,177 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 72 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 12:54:40,482 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3a5f495a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:54:40,489 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:54:41,007 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 12:54:41,017 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:54:41,017 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 12:54:41,018 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 12:54:41,075 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 12:54:41,075 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1669 ms
+2021-04-06 12:54:41,202 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 12:54:41,297 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c5a11376d841082c24373', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:59}] to localhost:27017
+2021-04-06 12:54:41,297 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c5a11376d841082c24373', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:60}] to localhost:27017
+2021-04-06 12:54:41,298 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c5a11376d841082c24373', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=28585441}
+2021-04-06 12:54:41,686 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 12:54:42,368 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a46e93, org.springframework.security.web.context.SecurityContextPersistenceFilter@18c14a6f, org.springframework.security.web.header.HeaderWriterFilter@2a22cab5, org.springframework.security.web.authentication.logout.LogoutFilter@51735e65, com.hazex.tofiebackend.config.JWT.JWTRequestFilter@17f5847, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7851883, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@365a9536, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@419e557d, org.springframework.security.web.session.SessionManagementFilter@61b4ba75, org.springframework.security.web.access.ExceptionTranslationFilter@307363d7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b6067af]
+2021-04-06 12:54:42,464 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:54:42,629 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:54:42,655 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 12:54:42,998 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 3.962 seconds (JVM running for 4.366)
+2021-04-06 12:54:44,156 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 12:54:44,156 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-06 12:54:44,158 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-06 12:54:44,172 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-04-06 12:54:44,231 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-04-06 12:54:44,237 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-04-06 12:54:44,239 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-4] JWT Token does not begin with Bearer String
+2021-04-06 12:54:44,240 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-6] JWT Token does not begin with Bearer String
+2021-04-06 12:54:44,240 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-5] JWT Token does not begin with Bearer String
+2021-04-06 12:54:44,406 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-7] JWT Token does not begin with Bearer String
+2021-04-06 12:54:44,409 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-8] JWT Token does not begin with Bearer String
+2021-04-06 12:54:44,480 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-9] JWT Token does not begin with Bearer String
+2021-04-06 12:54:44,488 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-10] JWT Token does not begin with Bearer String
+2021-04-06 12:54:44,533 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-04-06 12:55:15,578 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-04-06 12:55:15,686 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-04-06 12:55:28,896 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-6] JWT Token does not begin with Bearer String
+2021-04-06 12:55:28,939 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-6] Opened connection [connectionId{localValue:3, serverValue:61}] to localhost:27017
+2021-04-06 12:55:29,023 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-5] JWT Token does not begin with Bearer String
+2021-04-06 12:59:35,555 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-10] JWT Token does not begin with Bearer String
+2021-04-06 12:59:53,915 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-04-06 12:59:53,942 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-04-06 12:59:53,944 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-04-06 12:59:53,952 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-6] JWT Token does not begin with Bearer String
+2021-04-06 12:59:53,952 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-5] JWT Token does not begin with Bearer String
+2021-04-06 12:59:53,952 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-4] JWT Token does not begin with Bearer String
+2021-04-06 12:59:54,100 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-8] JWT Token does not begin with Bearer String
+2021-04-06 12:59:54,100 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-7] JWT Token does not begin with Bearer String
+2021-04-06 12:59:54,108 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-9] JWT Token does not begin with Bearer String
+2021-04-06 12:59:54,112 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-10] JWT Token does not begin with Bearer String
+2021-04-06 12:59:54,154 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-04-06 12:59:57,603 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-04-06 12:59:57,883 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:59:57,894 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-5] Closed connection [connectionId{localValue:3, serverValue:61}] to localhost:27017 because the pool has been closed.
+2021-04-06 12:59:58,048 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3547 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-04-06 12:59:58,048 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-06 12:59:58,336 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-06 12:59:58,352 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 16 ms. Found 6 MongoDB repository interfaces.
+2021-04-06 12:59:58,405 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@73f4f894' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:59:58,406 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-06 12:59:58,447 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 12:59:58,447 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:59:58,448 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-06 12:59:58,448 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 12:59:58,456 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-06 12:59:58,457 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 407 ms
+2021-04-06 12:59:58,480 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-06 12:59:58,483 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c5b4e376d841082c24374', description='null'}-localhost:27017] Opened connection [connectionId{localValue:4, serverValue:62}] to localhost:27017
+2021-04-06 12:59:58,483 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606c5b4e376d841082c24374', description='null'}-localhost:27017] Opened connection [connectionId{localValue:5, serverValue:63}] to localhost:27017
+2021-04-06 12:59:58,485 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606c5b4e376d841082c24374', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=993187}
+2021-04-06 12:59:58,581 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-06 12:59:58,807 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33d8845c, org.springframework.security.web.context.SecurityContextPersistenceFilter@9a6f544, org.springframework.security.web.header.HeaderWriterFilter@1f653e2c, org.springframework.security.web.authentication.logout.LogoutFilter@68abd502, com.hazex.tofiebackend.config.JWT.JWTRequestFilter@601ce0e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cb533dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a97ec39, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ed77ed4, org.springframework.security.web.session.SessionManagementFilter@399ebb80, org.springframework.security.web.access.ExceptionTranslationFilter@413c814c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ec5e079]
+2021-04-06 12:59:58,838 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 12:59:58,896 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 12:59:58,899 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 12:59:59,020 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.998 seconds (JVM running for 320.386)
+2021-04-06 12:59:59,024 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-06 12:59:59,225 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 12:59:59,225 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-06 12:59:59,226 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-06 12:59:59,227 WARN com.hazex.tofiebackend.config.JWT.JWTRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-04-06 14:01:09,571 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'

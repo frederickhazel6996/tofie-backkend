@@ -1,0 +1,794 @@
+2021-03-31 21:19:35,263 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-03-31 21:19:35,271 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:19:35,271 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:19:35,313 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-31 21:19:35,314 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-31 21:19:36,202 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:19:36,253 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 46 ms. Found 1 MongoDB repository interfaces.
+2021-03-31 21:19:36,993 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:19:37,006 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:19:37,006 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:19:37,007 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:19:37,064 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:19:37,065 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1751 ms
+2021-03-31 21:19:37,229 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:19:37,323 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064e769ae9a3b57749622be', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:1}] to localhost:27017
+2021-03-31 21:19:37,323 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e769ae9a3b57749622be', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+2021-03-31 21:19:37,323 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e769ae9a3b57749622be', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=35032919}
+2021-03-31 21:19:37,423 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:19:38,194 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:19:38,345 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:19:38,370 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:19:38,619 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 5.155 seconds (JVM running for 5.737)
+2021-03-31 21:20:09,891 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 21:20:09,892 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-03-31 21:20:09,893 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-03-31 21:20:10,126 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:3}] to localhost:27017
+2021-03-31 21:23:31,571 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:23:31,577 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-5] Closed connection [connectionId{localValue:3, serverValue:3}] to localhost:27017 because the pool has been closed.
+2021-03-31 21:23:31,702 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:23:31,703 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:23:31,950 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:23:31,957 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:23:32,015 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:23:32,015 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:23:32,015 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:23:32,016 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:23:32,022 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:23:32,022 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 317 ms
+2021-03-31 21:23:32,036 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:23:32,038 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e854ae9a3b57749622bf', description='null'}-localhost:27017] Opened connection [connectionId{localValue:4, serverValue:4}] to localhost:27017
+2021-03-31 21:23:32,038 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064e854ae9a3b57749622bf', description='null'}-localhost:27017] Opened connection [connectionId{localValue:5, serverValue:5}] to localhost:27017
+2021-03-31 21:23:32,039 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e854ae9a3b57749622bf', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=770957}
+2021-03-31 21:23:32,049 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:23:32,141 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:23:32,193 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:23:32,196 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:23:32,309 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.632 seconds (JVM running for 239.424)
+2021-03-31 21:23:32,312 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:24:55,044 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-9] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:24:55,183 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:24:55,184 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:24:55,476 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:24:55,485 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:24:55,667 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:24:55,667 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:24:55,668 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:24:55,668 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:24:55,682 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:24:55,683 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 495 ms
+2021-03-31 21:24:55,704 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:24:55,707 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e8a7ae9a3b57749622c0', description='null'}-localhost:27017] Opened connection [connectionId{localValue:6, serverValue:7}] to localhost:27017
+2021-03-31 21:24:55,707 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064e8a7ae9a3b57749622c0', description='null'}-localhost:27017] Opened connection [connectionId{localValue:7, serverValue:6}] to localhost:27017
+2021-03-31 21:24:55,708 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e8a7ae9a3b57749622c0', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=898691}
+2021-03-31 21:24:55,717 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:24:55,958 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:24:56,000 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:24:56,002 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:24:56,056 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.783 seconds (JVM running for 323.049)
+2021-03-31 21:24:56,058 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:26:58,536 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-14] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:26:58,673 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:26:58,673 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:26:58,882 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:26:58,889 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:26:58,938 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:26:58,939 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:26:58,939 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:26:58,939 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:26:58,946 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:26:58,946 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 270 ms
+2021-03-31 21:26:58,958 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:26:58,961 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e922ae9a3b57749622c1', description='null'}-localhost:27017] Opened connection [connectionId{localValue:8, serverValue:8}] to localhost:27017
+2021-03-31 21:26:58,961 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064e922ae9a3b57749622c1', description='null'}-localhost:27017] Opened connection [connectionId{localValue:9, serverValue:9}] to localhost:27017
+2021-03-31 21:26:58,962 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e922ae9a3b57749622c1', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=768028}
+2021-03-31 21:26:58,969 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:26:59,047 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:26:59,070 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:26:59,071 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:26:59,142 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.489 seconds (JVM running for 446.132)
+2021-03-31 21:26:59,145 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:27:38,687 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-19] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:27:38,811 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:27:38,811 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:27:39,012 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:27:39,025 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:27:39,110 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:27:39,113 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:27:39,115 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:27:39,116 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:27:39,132 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:27:39,132 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 320 ms
+2021-03-31 21:27:39,159 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:27:39,162 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e94bae9a3b57749622c2', description='null'}-localhost:27017] Opened connection [connectionId{localValue:10, serverValue:11}] to localhost:27017
+2021-03-31 21:27:39,162 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064e94bae9a3b57749622c2', description='null'}-localhost:27017] Opened connection [connectionId{localValue:11, serverValue:10}] to localhost:27017
+2021-03-31 21:27:39,164 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e94bae9a3b57749622c2', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1067933}
+2021-03-31 21:27:39,175 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:27:39,357 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:27:39,456 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:27:39,459 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:27:39,562 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.771 seconds (JVM running for 486.55)
+2021-03-31 21:27:39,564 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:28:34,161 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-24] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:28:34,258 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:28:34,259 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:28:34,421 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:28:34,430 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:28:34,502 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:28:34,502 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:28:34,503 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:28:34,503 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:28:34,509 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:28:34,509 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 249 ms
+2021-03-31 21:28:34,522 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:28:34,525 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e982ae9a3b57749622c3', description='null'}-localhost:27017] Opened connection [connectionId{localValue:12, serverValue:12}] to localhost:27017
+2021-03-31 21:28:34,525 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064e982ae9a3b57749622c3', description='null'}-localhost:27017] Opened connection [connectionId{localValue:13, serverValue:13}] to localhost:27017
+2021-03-31 21:28:34,526 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e982ae9a3b57749622c3', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=796329}
+2021-03-31 21:28:34,533 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:28:34,605 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:28:34,626 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:28:34,628 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:28:34,685 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.447 seconds (JVM running for 541.672)
+2021-03-31 21:28:34,686 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:29:15,251 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-29] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:29:15,365 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:29:15,365 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:29:15,578 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:29:15,589 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:29:15,648 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:29:15,649 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:29:15,650 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:29:15,650 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:29:15,658 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:29:15,658 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 291 ms
+2021-03-31 21:29:15,674 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:29:15,677 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e9abae9a3b57749622c4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:14, serverValue:14}] to localhost:27017
+2021-03-31 21:29:15,677 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064e9abae9a3b57749622c4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:15, serverValue:15}] to localhost:27017
+2021-03-31 21:29:15,679 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064e9abae9a3b57749622c4', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=854062}
+2021-03-31 21:29:15,688 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:29:15,838 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:29:15,905 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:29:15,907 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:29:15,972 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.627 seconds (JVM running for 582.958)
+2021-03-31 21:29:15,974 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:34:38,986 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 21:34:38,986 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-31 21:34:38,987 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-03-31 21:34:39,018 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [javax.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'javax.validation.constraints.NotBlank' validating type 'java.lang.Integer'. Check configuration for 'paymentStatus']
+2021-03-31 21:35:24,167 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-34] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:35:24,272 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:35:24,273 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:35:24,494 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:35:24,506 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:35:24,574 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:35:24,575 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:35:24,575 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:35:24,575 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:35:24,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:35:24,583 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 309 ms
+2021-03-31 21:35:24,594 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:35:24,597 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064eb1cae9a3b57749622c5', description='null'}-localhost:27017] Opened connection [connectionId{localValue:16, serverValue:16}] to localhost:27017
+2021-03-31 21:35:24,597 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064eb1cae9a3b57749622c5', description='null'}-localhost:27017] Opened connection [connectionId{localValue:17, serverValue:17}] to localhost:27017
+2021-03-31 21:35:24,599 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064eb1cae9a3b57749622c5', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1038129}
+2021-03-31 21:35:24,607 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:35:24,694 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:35:24,739 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:35:24,743 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:35:24,841 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.59 seconds (JVM running for 951.815)
+2021-03-31 21:35:24,843 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:35:29,600 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 21:35:29,600 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-31 21:35:29,601 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-03-31 21:35:29,632 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:18, serverValue:18}] to localhost:27017
+2021-03-31 21:38:46,864 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-39] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:38:46,866 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-39] Closed connection [connectionId{localValue:18, serverValue:18}] to localhost:27017 because the pool has been closed.
+2021-03-31 21:38:47,005 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:38:47,005 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:38:47,201 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:38:47,208 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:38:47,260 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:38:47,261 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:38:47,261 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:38:47,262 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:38:47,268 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:38:47,269 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 262 ms
+2021-03-31 21:38:47,281 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:38:47,285 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ebe7ae9a3b57749622c6', description='null'}-localhost:27017] Opened connection [connectionId{localValue:19, serverValue:31}] to localhost:27017
+2021-03-31 21:38:47,285 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064ebe7ae9a3b57749622c6', description='null'}-localhost:27017] Opened connection [connectionId{localValue:20, serverValue:32}] to localhost:27017
+2021-03-31 21:38:47,286 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ebe7ae9a3b57749622c6', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=834403}
+2021-03-31 21:38:47,295 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:38:47,378 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:38:47,400 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:38:47,402 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:38:47,472 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.487 seconds (JVM running for 1154.44)
+2021-03-31 21:38:47,473 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:39:08,329 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 21:39:08,329 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-31 21:39:08,330 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-03-31 21:39:08,332 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:21, serverValue:33}] to localhost:27017
+2021-03-31 21:41:01,719 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-44] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:41:01,720 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-44] Closed connection [connectionId{localValue:21, serverValue:33}] to localhost:27017 because the pool has been closed.
+2021-03-31 21:41:01,823 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:41:01,823 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:41:01,973 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:41:01,982 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:41:02,043 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:41:02,044 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:41:02,044 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:41:02,044 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:41:02,052 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:41:02,053 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 228 ms
+2021-03-31 21:41:02,071 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:41:02,076 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ec6eae9a3b57749622c7', description='null'}-localhost:27017] Opened connection [connectionId{localValue:22, serverValue:34}] to localhost:27017
+2021-03-31 21:41:02,076 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064ec6eae9a3b57749622c7', description='null'}-localhost:27017] Opened connection [connectionId{localValue:23, serverValue:35}] to localhost:27017
+2021-03-31 21:41:02,078 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ec6eae9a3b57749622c7', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1586553}
+2021-03-31 21:41:02,088 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:41:02,161 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:41:02,197 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:41:02,200 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:41:02,281 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.476 seconds (JVM running for 1289.235)
+2021-03-31 21:41:02,283 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:41:28,267 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 21:41:28,268 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-31 21:41:28,268 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 0 ms
+2021-03-31 21:41:30,772 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-49] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:41:30,906 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:41:30,906 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:41:31,100 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:41:31,108 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:41:31,155 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:41:31,155 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:41:31,156 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:41:31,156 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:41:31,162 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:41:31,162 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 254 ms
+2021-03-31 21:41:31,174 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:41:31,176 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ec8bae9a3b57749622c8', description='null'}-localhost:27017] Opened connection [connectionId{localValue:24, serverValue:36}] to localhost:27017
+2021-03-31 21:41:31,176 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064ec8bae9a3b57749622c8', description='null'}-localhost:27017] Opened connection [connectionId{localValue:25, serverValue:37}] to localhost:27017
+2021-03-31 21:41:31,178 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ec8bae9a3b57749622c8', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=604002}
+2021-03-31 21:41:31,185 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:41:31,274 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:41:31,302 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:41:31,304 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:41:31,379 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.491 seconds (JVM running for 1318.332)
+2021-03-31 21:41:31,384 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:41:32,892 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 21:41:32,893 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-31 21:41:32,893 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 0 ms
+2021-03-31 21:41:32,898 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:26, serverValue:38}] to localhost:27017
+2021-03-31 21:42:14,978 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-54] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:42:14,979 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-54] Closed connection [connectionId{localValue:26, serverValue:38}] to localhost:27017 because the pool has been closed.
+2021-03-31 21:42:15,072 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:42:15,073 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:42:15,203 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:42:15,209 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:42:15,262 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:42:15,263 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:42:15,263 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:42:15,263 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:42:15,271 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:42:15,272 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 198 ms
+2021-03-31 21:42:15,286 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:42:15,291 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064ecb7ae9a3b57749622c9', description='null'}-localhost:27017] Opened connection [connectionId{localValue:27, serverValue:39}] to localhost:27017
+2021-03-31 21:42:15,291 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ecb7ae9a3b57749622c9', description='null'}-localhost:27017] Opened connection [connectionId{localValue:28, serverValue:40}] to localhost:27017
+2021-03-31 21:42:15,293 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ecb7ae9a3b57749622c9', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2016899}
+2021-03-31 21:42:15,303 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:42:15,321 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in com.hazex.tofiebackend.services.PaymentService defined in @EnableMongoRepositories declared on MongoRepositoriesRegistrar.EnableMongoRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property agent found for type Payment! Did you mean 'agentId'?
+2021-03-31 21:42:15,322 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-03-31 21:42:15,327 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-31 21:42:15,350 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in com.hazex.tofiebackend.services.PaymentService defined in @EnableMongoRepositories declared on MongoRepositoriesRegistrar.EnableMongoRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property agent found for type Payment! Did you mean 'agentId'?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.hazex.tofiebackend.TofieBackendApplication.main(TofieBackendApplication.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in com.hazex.tofiebackend.services.PaymentService defined in @EnableMongoRepositories declared on MongoRepositoriesRegistrar.EnableMongoRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property agent found for type Payment! Did you mean 'agentId'?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 26 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property agent found for type Payment! Did you mean 'agentId'?
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:437)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:413)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:366)
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:348)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:331)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:249)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:250)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:383)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:384)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:95)
+	at org.springframework.data.mongodb.repository.query.PartTreeMongoQuery.<init>(PartTreeMongoQuery.java:67)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactory$MongoQueryLookupStrategy.resolveQuery(MongoRepositoryFactory.java:198)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:100)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:93)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:95)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:85)
+	at java.util.Optional.map(Optional.java:215)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:85)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:303)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactoryBean.afterPropertiesSet(MongoRepositoryFactoryBean.java:119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 36 common frames omitted
+2021-03-31 21:43:01,478 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:43:01,478 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:43:01,668 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:43:01,679 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:43:01,744 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:43:01,745 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:43:01,745 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:43:01,746 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:43:01,753 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:43:01,753 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 273 ms
+2021-03-31 21:43:01,765 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:43:01,772 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ece5ae9a3b57749622ca', description='null'}-localhost:27017] Opened connection [connectionId{localValue:29, serverValue:41}] to localhost:27017
+2021-03-31 21:43:01,773 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064ece5ae9a3b57749622ca', description='null'}-localhost:27017] Opened connection [connectionId{localValue:30, serverValue:42}] to localhost:27017
+2021-03-31 21:43:01,774 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ece5ae9a3b57749622ca', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3987679}
+2021-03-31 21:43:01,789 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:43:01,942 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:43:02,036 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:43:02,041 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:43:02,214 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.752 seconds (JVM running for 1409.164)
+2021-03-31 21:43:02,215 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:44:48,522 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-59] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:44:48,658 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:44:48,658 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:44:48,778 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:44:48,783 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:44:48,812 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:44:48,813 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:44:48,813 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:44:48,813 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:44:48,818 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:44:48,818 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 159 ms
+2021-03-31 21:44:48,824 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:44:48,826 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ed50ae9a3b57749622cb', description='null'}-localhost:27017] Opened connection [connectionId{localValue:31, serverValue:44}] to localhost:27017
+2021-03-31 21:44:48,826 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064ed50ae9a3b57749622cb', description='null'}-localhost:27017] Opened connection [connectionId{localValue:32, serverValue:43}] to localhost:27017
+2021-03-31 21:44:48,827 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ed50ae9a3b57749622cb', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=480595}
+2021-03-31 21:44:48,830 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:44:48,881 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:44:48,896 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:44:48,898 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:44:48,928 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.285 seconds (JVM running for 1515.875)
+2021-03-31 21:44:48,928 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:50:46,400 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-67] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:50:46,502 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:50:46,502 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:50:46,633 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:50:46,639 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:50:46,691 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:50:46,691 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:50:46,692 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:50:46,692 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:50:46,700 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:50:46,700 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 196 ms
+2021-03-31 21:50:46,715 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:50:46,720 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064eeb6ae9a3b57749622cc', description='null'}-localhost:27017] Opened connection [connectionId{localValue:34, serverValue:45}] to localhost:27017
+2021-03-31 21:50:46,720 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064eeb6ae9a3b57749622cc', description='null'}-localhost:27017] Opened connection [connectionId{localValue:33, serverValue:46}] to localhost:27017
+2021-03-31 21:50:46,722 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064eeb6ae9a3b57749622cc', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1338936}
+2021-03-31 21:50:46,730 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:50:46,794 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:50:46,810 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:50:46,812 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:50:46,847 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.36 seconds (JVM running for 1873.783)
+2021-03-31 21:50:46,849 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:51:28,483 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-72] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:51:28,607 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:51:28,607 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:51:28,748 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:51:28,755 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:51:28,826 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:51:28,827 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:51:28,828 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:51:28,828 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:51:28,837 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:51:28,837 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 228 ms
+2021-03-31 21:51:28,850 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:51:28,853 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064eee0ae9a3b57749622cd', description='null'}-localhost:27017] Opened connection [connectionId{localValue:35, serverValue:48}] to localhost:27017
+2021-03-31 21:51:28,853 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064eee0ae9a3b57749622cd', description='null'}-localhost:27017] Opened connection [connectionId{localValue:36, serverValue:47}] to localhost:27017
+2021-03-31 21:51:28,854 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064eee0ae9a3b57749622cd', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=951324}
+2021-03-31 21:51:28,860 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:51:28,916 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:51:28,935 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:51:28,937 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:51:28,966 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.378 seconds (JVM running for 1915.901)
+2021-03-31 21:51:28,967 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:52:23,841 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 21:52:23,841 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-31 21:52:23,842 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-03-31 21:52:26,768 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-77] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:52:26,945 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3372 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:52:26,945 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:52:27,313 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:52:27,320 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 5 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:52:27,360 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:52:27,361 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:52:27,361 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:52:27,361 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:52:27,367 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:52:27,367 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 420 ms
+2021-03-31 21:52:27,380 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:52:27,382 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ef1bae9a3b57749622ce', description='null'}-localhost:27017] Opened connection [connectionId{localValue:37, serverValue:49}] to localhost:27017
+2021-03-31 21:52:27,382 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064ef1bae9a3b57749622ce', description='null'}-localhost:27017] Opened connection [connectionId{localValue:38, serverValue:50}] to localhost:27017
+2021-03-31 21:52:27,384 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ef1bae9a3b57749622ce', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=966251}
+2021-03-31 21:52:27,389 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:52:27,489 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:52:27,519 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:52:27,520 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:52:27,590 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.664 seconds (JVM running for 1974.523)
+2021-03-31 21:52:27,593 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:52:33,292 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:52:34,680 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-03-31 21:52:34,686 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:52:34,686 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:52:34,720 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-31 21:52:34,720 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-31 21:52:35,746 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:52:35,833 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 81 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:52:36,793 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:52:36,802 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:52:36,803 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:52:36,803 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:52:36,870 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:52:36,870 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2149 ms
+2021-03-31 21:52:36,993 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:52:37,071 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064ef24cc40b077a1193236', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:51}] to localhost:27017
+2021-03-31 21:52:37,071 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ef24cc40b077a1193236', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:52}] to localhost:27017
+2021-03-31 21:52:37,072 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ef24cc40b077a1193236', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=27793011}
+2021-03-31 21:52:37,192 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:52:37,771 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:52:37,919 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:52:37,943 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:52:38,282 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 3.975 seconds (JVM running for 4.416)
+2021-03-31 21:52:47,054 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 21:52:47,055 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-03-31 21:52:47,057 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-03-31 21:52:47,143 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:53}] to localhost:27017
+2021-03-31 21:52:58,446 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:52:58,450 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-5] Closed connection [connectionId{localValue:3, serverValue:53}] to localhost:27017 because the pool has been closed.
+2021-03-31 21:52:58,558 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:52:58,558 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:52:58,819 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:52:58,826 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:52:58,876 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:52:58,877 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:52:58,877 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:52:58,877 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:52:58,884 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:52:58,884 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 323 ms
+2021-03-31 21:52:58,899 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:52:58,901 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ef3acc40b077a1193237', description='null'}-localhost:27017] Opened connection [connectionId{localValue:4, serverValue:54}] to localhost:27017
+2021-03-31 21:52:58,901 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064ef3acc40b077a1193237', description='null'}-localhost:27017] Opened connection [connectionId{localValue:5, serverValue:55}] to localhost:27017
+2021-03-31 21:52:58,903 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ef3acc40b077a1193237', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=826349}
+2021-03-31 21:52:58,914 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:52:59,021 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:52:59,068 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:52:59,071 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:52:59,173 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.639 seconds (JVM running for 25.306)
+2021-03-31 21:52:59,175 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:53:22,732 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 21:53:22,732 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-31 21:53:22,733 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-03-31 21:53:22,736 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:6, serverValue:56}] to localhost:27017
+2021-03-31 21:53:49,273 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-9] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:53:49,276 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-9] Closed connection [connectionId{localValue:6, serverValue:56}] to localhost:27017 because the pool has been closed.
+2021-03-31 21:53:49,399 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:53:49,399 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:53:49,633 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:53:49,640 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:53:49,692 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:53:49,693 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:53:49,693 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:53:49,693 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:53:49,700 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:53:49,700 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 299 ms
+2021-03-31 21:53:49,710 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:53:49,712 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064ef6dcc40b077a1193238', description='null'}-localhost:27017] Opened connection [connectionId{localValue:8, serverValue:58}] to localhost:27017
+2021-03-31 21:53:49,712 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ef6dcc40b077a1193238', description='null'}-localhost:27017] Opened connection [connectionId{localValue:7, serverValue:57}] to localhost:27017
+2021-03-31 21:53:49,714 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ef6dcc40b077a1193238', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=710711}
+2021-03-31 21:53:49,721 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:53:49,808 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:53:49,834 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:53:49,836 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:53:49,948 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.569 seconds (JVM running for 76.079)
+2021-03-31 21:53:49,953 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:54:29,497 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 21:54:29,497 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-31 21:54:29,499 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-03-31 21:54:29,504 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:9, serverValue:59}] to localhost:27017
+2021-03-31 21:54:31,570 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-14] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:54:31,572 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-14] Closed connection [connectionId{localValue:9, serverValue:59}] to localhost:27017 because the pool has been closed.
+2021-03-31 21:54:31,700 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:54:31,700 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:54:31,938 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:54:31,946 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:54:32,000 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:54:32,001 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:54:32,001 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:54:32,001 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:54:32,007 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:54:32,008 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 306 ms
+2021-03-31 21:54:32,018 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:54:32,020 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064ef98cc40b077a1193239', description='null'}-localhost:27017] Opened connection [connectionId{localValue:11, serverValue:60}] to localhost:27017
+2021-03-31 21:54:32,020 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ef98cc40b077a1193239', description='null'}-localhost:27017] Opened connection [connectionId{localValue:10, serverValue:61}] to localhost:27017
+2021-03-31 21:54:32,022 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064ef98cc40b077a1193239', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=817883}
+2021-03-31 21:54:32,030 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:54:32,112 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:54:32,143 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:54:32,145 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:54:32,206 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.525 seconds (JVM running for 118.336)
+2021-03-31 21:54:32,208 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:57:25,873 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-19] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:57:25,985 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:57:25,986 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:57:26,191 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:57:26,201 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:57:26,250 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:57:26,251 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:57:26,251 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:57:26,251 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:57:26,259 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:57:26,259 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 272 ms
+2021-03-31 21:57:26,270 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:57:26,273 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f046cc40b077a119323a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:12, serverValue:63}] to localhost:27017
+2021-03-31 21:57:26,273 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064f046cc40b077a119323a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:13, serverValue:62}] to localhost:27017
+2021-03-31 21:57:26,275 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f046cc40b077a119323a', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1039024}
+2021-03-31 21:57:26,282 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:57:26,360 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:57:26,380 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:57:26,382 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:57:26,450 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.484 seconds (JVM running for 292.587)
+2021-03-31 21:57:26,452 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:58:55,558 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-24] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:58:55,675 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:58:55,675 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:58:55,841 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:58:55,850 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:58:55,949 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:58:55,952 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:58:55,953 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:58:55,953 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:58:55,964 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:58:55,964 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 287 ms
+2021-03-31 21:58:55,981 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:58:55,987 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f09fcc40b077a119323b', description='null'}-localhost:27017] Opened connection [connectionId{localValue:14, serverValue:65}] to localhost:27017
+2021-03-31 21:58:55,987 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064f09fcc40b077a119323b', description='null'}-localhost:27017] Opened connection [connectionId{localValue:15, serverValue:64}] to localhost:27017
+2021-03-31 21:58:55,989 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f09fcc40b077a119323b', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1428488}
+2021-03-31 21:58:55,996 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:58:56,123 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:58:56,152 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:58:56,154 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:58:56,210 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.556 seconds (JVM running for 382.344)
+2021-03-31 21:58:56,211 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 21:59:22,762 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-29] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:59:22,886 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 21:59:22,887 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 21:59:23,066 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 21:59:23,077 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 21:59:23,127 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 21:59:23,128 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:59:23,128 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 21:59:23,128 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 21:59:23,134 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 21:59:23,134 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 246 ms
+2021-03-31 21:59:23,145 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 21:59:23,147 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064f0bbcc40b077a119323c', description='null'}-localhost:27017] Opened connection [connectionId{localValue:17, serverValue:66}] to localhost:27017
+2021-03-31 21:59:23,147 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f0bbcc40b077a119323c', description='null'}-localhost:27017] Opened connection [connectionId{localValue:16, serverValue:67}] to localhost:27017
+2021-03-31 21:59:23,149 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f0bbcc40b077a119323c', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=729503}
+2021-03-31 21:59:23,155 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 21:59:23,236 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:59:23,259 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 21:59:23,261 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 21:59:23,328 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.458 seconds (JVM running for 409.461)
+2021-03-31 21:59:23,330 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 22:00:33,167 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-34] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 22:00:33,275 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 22:00:33,275 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 22:00:33,453 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 22:00:33,463 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 22:00:33,517 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 22:00:33,518 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 22:00:33,518 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 22:00:33,518 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 22:00:33,525 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 22:00:33,525 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 248 ms
+2021-03-31 22:00:33,535 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 22:00:33,537 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064f101cc40b077a119323d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:19, serverValue:69}] to localhost:27017
+2021-03-31 22:00:33,537 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f101cc40b077a119323d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:18, serverValue:68}] to localhost:27017
+2021-03-31 22:00:33,539 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f101cc40b077a119323d', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=654375}
+2021-03-31 22:00:33,544 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 22:00:33,618 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 22:00:33,640 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 22:00:33,641 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 22:00:33,692 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.435 seconds (JVM running for 479.823)
+2021-03-31 22:00:33,693 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 22:00:52,586 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-39] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 22:00:52,721 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 22:00:52,721 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 22:00:52,924 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 22:00:52,931 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 22:00:52,973 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 22:00:52,974 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 22:00:52,974 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 22:00:52,975 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 22:00:52,980 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 22:00:52,981 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 259 ms
+2021-03-31 22:00:52,989 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 22:00:52,991 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f114cc40b077a119323e', description='null'}-localhost:27017] Opened connection [connectionId{localValue:20, serverValue:70}] to localhost:27017
+2021-03-31 22:00:52,991 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064f114cc40b077a119323e', description='null'}-localhost:27017] Opened connection [connectionId{localValue:21, serverValue:71}] to localhost:27017
+2021-03-31 22:00:52,993 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f114cc40b077a119323e', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=811743}
+2021-03-31 22:00:53,000 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 22:00:53,079 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 22:00:53,099 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 22:00:53,100 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 22:00:53,142 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.436 seconds (JVM running for 499.272)
+2021-03-31 22:00:53,144 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 22:00:56,276 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 22:00:56,277 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-31 22:00:56,277 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 0 ms
+2021-03-31 22:00:56,405 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:22, serverValue:72}] to localhost:27017
+2021-03-31 22:01:45,263 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-44] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 22:01:45,264 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-44] Closed connection [connectionId{localValue:22, serverValue:72}] to localhost:27017 because the pool has been closed.
+2021-03-31 22:01:45,390 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 22:01:45,391 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 22:01:45,555 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 22:01:45,564 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 22:01:45,620 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 22:01:45,620 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 22:01:45,621 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 22:01:45,621 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 22:01:45,627 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 22:01:45,627 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 235 ms
+2021-03-31 22:01:45,636 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 22:01:45,638 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f149cc40b077a119323f', description='null'}-localhost:27017] Opened connection [connectionId{localValue:23, serverValue:74}] to localhost:27017
+2021-03-31 22:01:45,638 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064f149cc40b077a119323f', description='null'}-localhost:27017] Opened connection [connectionId{localValue:24, serverValue:73}] to localhost:27017
+2021-03-31 22:01:45,640 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f149cc40b077a119323f', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=671579}
+2021-03-31 22:01:45,647 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 22:01:45,713 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 22:01:45,730 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 22:01:45,732 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 22:01:45,779 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.404 seconds (JVM running for 551.909)
+2021-03-31 22:01:45,781 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 22:02:04,664 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 22:02:04,664 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-31 22:02:04,665 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-03-31 22:02:04,681 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:25, serverValue:75}] to localhost:27017
+2021-03-31 22:03:39,365 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-49] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 22:03:39,366 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-49] Closed connection [connectionId{localValue:25, serverValue:75}] to localhost:27017 because the pool has been closed.
+2021-03-31 22:03:39,480 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 22:03:39,480 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 22:03:39,619 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 22:03:39,627 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 22:03:39,681 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 22:03:39,682 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 22:03:39,682 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 22:03:39,682 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 22:03:39,688 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 22:03:39,689 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 208 ms
+2021-03-31 22:03:39,697 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 22:03:39,700 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f1bbcc40b077a1193240', description='null'}-localhost:27017] Opened connection [connectionId{localValue:26, serverValue:76}] to localhost:27017
+2021-03-31 22:03:39,700 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064f1bbcc40b077a1193240', description='null'}-localhost:27017] Opened connection [connectionId{localValue:27, serverValue:77}] to localhost:27017
+2021-03-31 22:03:39,702 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f1bbcc40b077a1193240', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=813408}
+2021-03-31 22:03:39,707 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 22:03:39,771 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 22:03:39,789 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 22:03:39,791 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 22:03:39,830 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.366 seconds (JVM running for 665.956)
+2021-03-31 22:03:39,831 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 22:04:16,813 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 22:04:16,813 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-31 22:04:16,814 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-03-31 22:04:16,824 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:28, serverValue:78}] to localhost:27017
+2021-03-31 22:05:20,296 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-54] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 22:05:20,297 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-54] Closed connection [connectionId{localValue:28, serverValue:78}] to localhost:27017 because the pool has been closed.
+2021-03-31 22:05:20,393 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 22:05:20,393 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 22:05:20,501 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 22:05:20,506 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 4 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 22:05:20,555 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 22:05:20,556 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 22:05:20,556 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 22:05:20,557 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 22:05:20,570 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 22:05:20,570 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 175 ms
+2021-03-31 22:05:20,590 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 22:05:20,599 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f220cc40b077a1193241', description='null'}-localhost:27017] Opened connection [connectionId{localValue:29, serverValue:79}] to localhost:27017
+2021-03-31 22:05:20,600 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064f220cc40b077a1193241', description='null'}-localhost:27017] Opened connection [connectionId{localValue:30, serverValue:80}] to localhost:27017
+2021-03-31 22:05:20,601 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f220cc40b077a1193241', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5432413}
+2021-03-31 22:05:20,611 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 22:05:20,693 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 22:05:20,720 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 22:05:20,722 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 22:05:20,787 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.41 seconds (JVM running for 766.91)
+2021-03-31 22:05:20,788 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 22:06:20,466 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-59] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 22:06:20,566 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TofieBackendApplication using Java 1.8.0_281 on meister-kwame with PID 3952 (/Users/frederickhazel/Desktop/Codes/Web/tofie-backend/target/classes started by frederickhazel in /Users/frederickhazel/Desktop/Codes/Web/tofie-backend)
+2021-03-31 22:06:20,566 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-31 22:06:20,683 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-31 22:06:20,688 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 4 ms. Found 2 MongoDB repository interfaces.
+2021-03-31 22:06:20,726 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-31 22:06:20,727 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 22:06:20,728 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-31 22:06:20,728 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-31 22:06:20,733 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-31 22:06:20,734 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 167 ms
+2021-03-31 22:06:20,742 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-31 22:06:20,745 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f25ccc40b077a1193242', description='null'}-localhost:27017] Opened connection [connectionId{localValue:31, serverValue:81}] to localhost:27017
+2021-03-31 22:06:20,745 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6064f25ccc40b077a1193242', description='null'}-localhost:27017] Opened connection [connectionId{localValue:32, serverValue:82}] to localhost:27017
+2021-03-31 22:06:20,748 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6064f25ccc40b077a1193242', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1166802}
+2021-03-31 22:06:20,756 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-31 22:06:20,824 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 22:06:20,843 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 22:06:20,845 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 22:06:20,887 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TofieBackendApplication in 0.337 seconds (JVM running for 827.008)
+2021-03-31 22:06:20,888 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-31 22:06:28,127 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 22:06:28,127 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-03-31 22:06:28,129 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-03-31 22:09:59,819 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
